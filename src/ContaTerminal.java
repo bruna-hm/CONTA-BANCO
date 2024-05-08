@@ -12,7 +12,7 @@ public class ContaTerminal {
         System.out.println("\nComo você se chama? ");
         String nome = scanner.nextLine();
         System.out.println("\nQual o número de sua Agência? ");
-        int agencia = scanner.nextInt();
+        String agencia = scanner.nextLine();
         System.out.println("\nQual o número de sua conta? ");
         int numero = scanner.nextInt();
         System.out.println("\nQuanto você tem de saldo? ");
